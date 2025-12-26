@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+font.nunito-sans-h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weigh;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+body{
+    background-color: white;
+    font-size: 20pt;
+}
+
+section#section_do_h1{
+    max-width: auto;
+    height: 90px;
+    background-color: #0F4C81;
+    position: relative;
+}
+
+h1#txt_principal_index{
+    text-align: center; 
+    position: relative; 
+    top: -118px;
+    color: white;
+    font-family: Nunito Sans; 
+}
+
+
