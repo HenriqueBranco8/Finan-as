@@ -17,19 +17,63 @@ body{
     font-size: 20pt;
 }
 
-section#section_do_h1{
-    max-width: auto;
-    height: 90px;
-    background-color: #0F4C81;
-    position: relative;
-}
+
 
 h1#txt_principal_index{
-    text-align: center; 
     position: relative; 
-    top: -118px;
-    color: white;
-    font-family: Nunito Sans; 
+    color: black;
+    font-family: Nunito Sans;
+    top: -20px;
 }
+
+
+
+img#imagem_principal_index{
+    width: 600px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Position: relative;
+    top: 20px;
+    left: 250px;
+    
+}
+
+svg#onda_1_index{
+  display: block;
+  width: 100%;
+  height: 120px;
+  position:relative;
+  top: -90px;
+  transform: scaleY(-1);
+  
+}
+
+section#img_1_index{
+    max-width: auto;
+    height: 400px;
+    background-color: #0F4C81;
+    position: relative;
+    top: -210px;
+}
+
+svg#onda_2_index{
+  display: block;
+  width: 100%;
+  height: 120px;
+  position:relative;
+  top: 300px;
+}
+
+h2#lado_img_1_index{
+    color: white;
+    position: relative;
+    top: -500px;
+    left: 30px;
+    font: Arial;
+
+}
+
 
 
