@@ -1,6 +1,19 @@
+@charset "UTF-8";
+
+
+/*Font Nunito-Sans*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/*Font Ubuntu*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+font.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 font.nunito-sans-h1 {
   font-family: "Nunito Sans", sans-serif;
@@ -47,7 +60,7 @@ svg#onda_1_index{
   position:relative;
   top: -90px;
   transform: scaleY(-1);
-  
+  background-attachment: fixed;
 }
 
 section#img_1_index{
@@ -56,6 +69,7 @@ section#img_1_index{
     background-color: #0F4C81;
     position: relative;
     top: -210px;
+    box-shadow: 2px 3px 25px #0F4C81;
 }
 
 svg#onda_2_index{
@@ -64,6 +78,7 @@ svg#onda_2_index{
   height: 120px;
   position:relative;
   top: 300px;
+  
 }
 
 h2#lado_img_1_index{
@@ -71,7 +86,7 @@ h2#lado_img_1_index{
     position: relative;
     top: -500px;
     left: 30px;
-    font: Arial;
+    font-family: Ubuntu;
 
 }
 
